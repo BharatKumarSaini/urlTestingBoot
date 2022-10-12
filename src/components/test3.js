@@ -7,11 +7,9 @@ const Testy = () => {
     console.log(response);
     setToken(response.credential);
   };
-    setInterval
-    
   useEffect(() => {
     console.log(token);
-  }, [flag]);
+  }, [token]);
   return (
     <GoogleOAuthProvider clientId="143296463873-llufv9tej17dka20f3ui4ka4o2l3q051.apps.googleusercontent.com">
       ;
